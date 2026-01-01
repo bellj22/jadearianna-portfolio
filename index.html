@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Jade Arianna | Software Developer</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Monsieur+La+Doulaise&family=Tenor+Sans&display=swap" />
+
+    <link rel="icon" href="assets/website-logo-removebg-preview.png" />
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h1 class="logo-title">jadearianna</h1>
+        </div>
+        <!-- Navbar Section-->
+        <nav>
+            <ul class="nav-links">
+                <li class="underline-hover"><a href="#home">Home</a></li>
+                <li class="underline-hover"><a href="#about">About</a></li>
+                <li class="underline-hover"><a href="#works">Projects</a></li>
+                <li id="contact-wrapper"><a href="#contact-form-section">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section 1: Home -->
+        <section class="hero" id="home">
+            <div class="hero-heading hidden">
+                <!--<h1 class="hero-title heading">welcome!</h1> -->
+                <h1 class="cursive-text">portfolio</h1>
+            </div>
+
+            <div class="hero-subheading hidden">
+                <p id="job-titles" class="normal-text">(Software Developer)</p>
+            </div>
+        </section>
+
+        <!-- Section 2: About -->
+        <section id="about">
+            <div class="header-container hidden">
+                <h2 class="header-title heading about-title">hi! I'm
+                    <span class="cursive-text">Jade</span>
+                </h2>
+            </div>
+
+            <div class="about-content hidden">
+                <img 
+                src="./assets/professional_photo.jpg"
+                class="about-image"
+                alt="Jade Professional Image"
+                />
+                <div class="about-text">
+                    <div class="about-nav-container">
+                        <button class="about-nav" id="about-me-btn">about me</button>
+                        <button class="about-nav" id="about-skills-btn">skills</button>
+                        <button class="about-nav" id="about-cert-btn">certifications</button>
+                    </div>
+                    <!-- Skills -->
+                    <div id="skills-container" class="skills-container" style="display: none;">
+                        <div class="skills-grid">
+                            <!-- Programming Languages skilled in -->
+                            <button class="skill-button" title="Java">
+                                <img class="skill-svg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                                <span class="skill-label">Java</span>
+                            </button>
+
+                            <button class="skill-button" title="Python">
+                                <img class="skill-svg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                                <span class="skill-label">Python</span>
+                            </button>
+
+                            <button class="skill-button" title="C++">
+                                <img class="skill-svg" src="assets/icons/C++ (CPlusPlus).png" alt="C++">
+                                <span class="skill-label">C++</span>
+                            </button>
+
+                            <button class="skill-button" title="HTML">
+                                <img class="skill-svg" src="assets/icons/HTML5.png" alt="HTML">
+                                <span class="skill-label">HTML</span>
+                            </button>
+
+                            <button class="skill-button" title="CSS">
+                                <img class="skill-svg" src="assets/icons/CSS3.png" alt="CSS">
+                                <span class="skill-label">CSS</span>
+                            </button>
+
+                            <button class="skill-button" title="JavaScript">
+                                <img class="skill-svg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                                <span class="skill-label">JavaScript</span>
+                            </button>
+
+                            <button class="skill-button" title="Canva">
+                                <img class="skill-svg" src="assets/icons/Canva.png" alt="Canva">
+                                <span class="skill-label">Canva</span>
+                            </button>
+
+                            <button class="skill-button" title="Figma">
+                                <img class="skill-svg" src="assets/icons/Figma.png" alt="Figma">
+                                <span class="skill-label">Figma</span>
+                            </button>
+
+                            <button class="skill-button" title="Microsoft">
+                                <img class="skill-svg" src="assets/icons/microsoft.png" alt="Microsoft 365">
+                                <span class="skill-label">Microsoft 365</span>
+                            </button>
+
+                            <button class="skill-button" title="Git">
+                                <img class="skill-svg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                                <span class="skill-label">Git</span>
+                            </button>
+
+                            <button class="skill-button" title="Firebase">
+                                <img class="skill-svg" src="assets/icons/Firebase.png" alt="Firebase">
+                                <span class="skill-label">Firebase</span>
+                            </button>
+
+                            <button class="skill-button" title="Google Colab">
+                                <img class="skill-svg" src="https://cdn.simpleicons.org/googlecolab/f9ab00" alt="Google Colab">
+                                <span class="skill-label">Google Colab</span>
+                            </button>
+                        </div>
+                    </div>
+                    <p class="normal-text about-paragraph" id="about-text-placeholder">
+                        I'm a Computer Science graduate from Northern Kentucky University, passionate about building intuitive, user-focused 
+                        software and web applications. With hands-on experience in machine learning and responsive front-end development, 
+                        I enjoy turning ideas into practical, impactful solutions.
+                        <br><br>
+                        I thrive in collaborative environments where I can contribute, learn, and grow alongside a team. From designing interactive 
+                        web interfaces to exploring AI-powered applications, I'm driven by curiosity, problem-solving, and the joy of creating.
+                    </p> 
+                </div>
+            </div>        
+        </section> 
+
+        <!-- Section 3: Projects -->
+        <section id="works">
+            <div class="header-container work-title-container hidden">
+                <h2 class="header-title heading works-title">my
+                    <span class="cursive-text">projects</span>
+                </h2>
+            </div>
+            
+            <div class="works-container hidden">
+                <!-- Project 1: Sentiment Analysis-->
+                <a 
+                    class="work-card" 
+                    data-project="sentimentanalysis-chatgpt" 
+                    rel="noopener noreferrer" 
+                    href="https://github.com/bellj22/CSC425Project-Sentiment-Analysis" 
+                    target="_blank"
+                    data-status="completed"
+                >
+                    <img 
+                    class="work-image"
+                    src="assets/sentiment_analysisproj.png"
+                    alt="SentimentAnalysisProject-ChatGPTReview"
+                    />
+                    <div class="work-text">
+                        <span class="project-status status-completed">completed</span>
+                        <h3 class="project-title">Sentiment Analysis - ChatGPT Reviews</h3>
+                        <p class="project-description">
+                            Performed large-scale sentiment analysis with ChatGPT user reviews using NLP 
+                            preprocessing with trained ML models for classification. Engineered features to improve model
+                            and sentiment trends.
+                        </p>
+                        <hr>
+                        <p class="arial-text">SOFTWARE USED</p>
+                        <div class="tech-icons-container">
+                            <div class="tech-icons" data-label="Python"><img src="assets/icons/python-icon.png" alt="Python Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="Google Colab"><img src="assets/icons/colab-icon.png" alt="Google Colab Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="OpenAI"><img src="assets/icons/openai-logo.png" alt="OpenAI Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="Kaggle"><img src="assets/icons/Kaggle.png" alt="Kaggle Icon" class="tech-image-icons large-icons"></div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 2: Poppi Web Dupe-->
+                <a class="work-card" data-project="poppi-webdupe" href="https://github.com/bellj22/PoppiWeb-Dupe" target="_blank" rel="noopener noreferrer" data-status="ongoing">
+                    <img 
+                    class="work-image"
+                    src="assets/poppi_web.png"
+                    alt="Web Application - Poppi Drinks"
+                    
+                    />
+                    <div class="work-text">
+                        <span class="project-status status-ongoing">ongoing</span>
+                        <h3 class="project-title">Poppi Web Dupe</h3>
+                        <p class="project-description">
+                            Recreated the Poppi Drinks landing page as a front-end web application, focusing on responsive layout, UI design, and clean structure using HTML, CSS, and JS.
+                        </p>
+                        <hr>
+                        <p class="arial-text">SOFTWARE USED</p>
+                        <div class="tech-icons-container">
+                            <div class="tech-icons" data-label="HTML"><img src="assets/icons/html-icon.png" alt="HTML Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="CSS"><img src="assets/icons/css-icon.png" alt="CSS Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="JavaScript"><img src="assets/icons/js-icon.png" alt="JS Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="GitHub"><img src="assets/icons/github-icon.png" alt="GitHub Icon" class="tech-image-icons large-icons"></div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 3: Credit Card Fraud Detection: ML Project -->
+                <a class="work-card" data-project="ccfd" href="https://github.com/bellj22/MachineLearningProject" target="_blank" rel="noopener noreferrer" data-status="completed">
+                    <img 
+                    class="work-image"
+                    src="assets/ccfd_proj.png"
+                    alt="Credit Card Fraud Detection: ML Project"
+                    />
+                    <div class="work-text">
+                        <span class="project-status status-completed">completed</span>
+                        <h3 class="project-title">Credit Card Fraud Detection: ML Project</h3>
+                        <p class="project-description">
+                            Detected fraudulent credit transactions through dataset behavior and utilized machine learning algorithms to perform predictive models with an accuracy of 94.6%.
+                        </p>
+                        <hr>
+                        <p class="arial-text">SOFTWARE USED</p>
+                        <div class="tech-icons-container">
+                            <div class="tech-icons" data-label="Python"><img src="assets/icons/python-icon.png" alt="Python Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="Google Colab"><img src="assets/icons/colab-icon.png" alt="Google Colab Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="OpenAI"><img src="assets/icons/openai-logo.png" alt="OpenAI Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="Kaggle"><img src="assets/icons/Kaggle.png" alt="Kaggle Icon" class="tech-image-icons large-icons"></div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 4: Love Island Front-End Web Application -->
+                <a class="work-card" data-project="loveisland-web" href="https://github.com/bellj22/LoveIslandPage" target="_blank" rel="noopener noreferrer" data-status="ongoing">
+                    <img 
+                    class="work-image"
+                    src="assets/loveisland_web.png"
+                    alt="Love Island Front-End Web App"
+                
+                    />
+                    <div class="work-text">
+                        <span class="project-status status-ongoing">ongoing</span>
+                        <h3 class="project-title">Love Island Front-End Web Application</h3>
+                        <p class="project-description">
+                            Designed and developed a responsive web application inspired by 2025 Season of 'Love Island' to strengthen front-end development skills.
+                        </p>
+                        <hr>
+                        <p class="arial-text">SOFTWARE USED</p>
+                        <div class="tech-icons-container">
+                            <div class="tech-icons" data-label="HTML"><img src="assets/icons/html-icon.png" alt="HTML Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="CSS"><img src="assets/icons/css-icon.png" alt="CSS Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="GitHub"><img src="assets/icons/github-icon.png" alt="GitHub Icon" class="tech-image-icons large-icons"></div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 5: Dream Journal Application: Software Engineering Proj -->
+                <a class="work-card" data-project="dream-journal" href="https://github.com/benjamintruth/TEAM-B-Project/tree/main" target="_blank" rel="noopener noreferrer" data-status="completed">
+                    <img 
+                    class="work-image"
+                    src="assets/dream_journal.png"
+                    alt="Dream Journal Application"
+                    
+                    />
+                    <div class="work-text">
+                        <span class="project-status status-completed">completed</span>
+                        <h3 class="project-title">Dream Journal Application</h3>
+                        <p class="project-description">
+                            Collaborated on a team-based software engineering project to design and develop an Android dream journal app. The app integrates system alarms and voice recording, 
+                            allowing users to capture dreams immediately upon waking through voice or text input.
+                        </p>
+                        <hr>
+                        <p class="arial-text">SOFTWARE USED</p>
+                        <div class="tech-icons-container">
+                            <div class="tech-icons" data-label="GitHub"><img src="assets/icons/github-icon.png" alt="GitHub Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="Firebase"><img src="assets/icons/Firebase.png" alt="Firebase Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="Android Studio"><img src="assets/icons/android-studio-icon.png" alt="Android Studio Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="Kotlin"><img src="assets/icons/Kotlin.png" alt="Kotlin Icon" class="tech-image-icons large-icons"></div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 6: Spotify Music Web Application -->
+                <a class="work-card" data-project="spotify-web" href="https://github.com/bellj22/Spotify-Desktop-Dupe" data-status="completed">
+                    <img 
+                    class="work-image"
+                    src="assets/spotify_web.png"
+                    alt="Spotify Music Web App"
+                    
+                    />
+                    <div class="work-text">
+                        <span class="project-status status-completed">completed</span>
+                        <h3 class="project-title">Spotify Music Web Application</h3>
+                        <p class="project-description">
+                            Created a Spotify desktop landing page clone using HTML and CSS to practice layout structure, styling, and visual accuracy.
+                        </p>
+                        <hr>
+                        <p class="arial-text">SOFTWARE USED</p>
+                        <div class="tech-icons-container">
+                            <div class="tech-icons" data-label="HTML"><img src="assets/icons/html-icon.png" alt="HTML Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="CSS"><img src="assets/icons/css-icon.png" alt="CSS Icon" class="tech-image-icons large-icons"></div>
+                            <div class="tech-icons" data-label="GitHub"><img src="assets/icons/github-icon.png" alt="GitHub Icon" class="tech-image-icons large-icons"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Section 4: Contact -->
+         <section id="contact-form-section">
+            <div class="form-container hidden">
+                <h2 class="form-title heading"><span class="cursive-text-form"> message me!</span></h2>
+                <!--<h2 class="form-title heading">let's <span class="cursive-text-form"> connect!</span></h2> -->
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <input 
+                            type="text"
+                            id="form-name"
+                            class="form-input"
+                            placeholder="Your Name"
+                            required 
+                        />
+                        <span class="form-error" id="name-error"></span>  
+                    </div>  
+                    <div class="form-group">
+                        <input 
+                            type="email" 
+                            id="form-email" 
+                            class="form-input" 
+                            placeholder="Your Email"
+                            required
+                        />
+                        <span class="form-error" id="email-error"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea 
+                            id="form-message" 
+                            class="form-input form-textarea" 
+                            placeholder="Your Message"
+                            rows="6"
+                            required
+                        ></textarea>
+                        <span class="form-error" id="message-error"></span>
+                    </div>
+                    <button type="submit" class="form-submit-btn">Send Message</button>
+                    <div id="form-feedback" class="form-feedback"></div>
+                </form>
+            </div>
+            <div class="contact-icons hidden">
+                <a class="contact-icons-container" href="https://github.com/bellj22" target="_blank">
+                    <img src="assets/icons/github-icon.png" alt="Github Icon" class="image-icons">
+                </a>
+                <a class="contact-icons-container" href="https://www.linkedin.com/in/jade-bell-7a49a5291/" target="_blank">
+                    <img src="assets/icons/linkedin-icon.png" alt="LinkedIn Icon" class="image-icons">
+                </a>
+            </div>
+         </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p> © 2026 Jade Arianna Bell</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <!-- JS file to allow users to message email -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="mail.js"></script>
+            <script>
+            const titles = document.getElementById('job-titles');
+            let index = 0;
+
+            const positions = [
+                '( Web Developer )',
+                '( Software Developer )',
+                '( UI/UX Designer )',
+                '( AI/ML Interest )'
+            ];
+
+            function showNextMessage() {
+                titles.classList.remove('fade');
+                void titles.offsetWidth;
+                titles.textContent = positions[index];
+                titles.classList.add('fade');
+
+                index = (index + 1) % positions.length;
+            }
+
+            showNextMessage();
+            setInterval(showNextMessage, 2000);
+        </script>
+</body>
+</html>
