@@ -18,12 +18,17 @@ document.addEventListener("DOMContentLoaded", () => {
         <a href="https://www.freecodecamp.org/certification/bellj22/responsive-web-design" target="_blank" class="cert-card">
             <img src="assets/certificates/web_develop.png" alt="Legacy Responsive Web Design Certificate" class="cert-image">
             <h4 class="cert-title left-align">Legacy Responsive Web Design</h4>
-            <p class="cert-issuer">freeCodeCamp</p>
+            <p class="cert-issuer">freeCodeCamp (2024)</p>
         </a>
         <a href="https://learn.nvidia.com/certificates?id=o16YtqYHSlas4RCor0WnSQ" target="_blank" class="cert-card">
             <img src="assets/certificates/ai_deeplearning.png" alt="AI: Fundamentals of Deep Learning" class="cert-image">
             <h4 class="cert-title">AI: Fundamentals of Deep Learning</h4>
-            <p class="cert-issuer">NVIDIA</p>
+            <p class="cert-issuer">NVIDIA (2025)</p>
+        </a>
+        <a href="https://www.credly.com/users/jade-bell.a100f5a3/badges#credly" target="_blank" class="cert-card">
+            <img src="assets/certificates/IBMDesign.png" alt="User Experience Design Fund Credential" class="cert-image">
+            <h4 class="cert-title left-align">User Experience Design Fundamentals Credential</h4>
+            <p class="cert-issuer">IBM-SkillsBuild (2026)</p>
         </a>
         </div>
     `
